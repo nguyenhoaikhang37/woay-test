@@ -1,0 +1,37 @@
+.hero{
+  height: 774px;
+  display: flex;
+  align-items: center;
+  background: var(--c-primary-lighter);
+  position: relative;
+}
+
+.hero-wrapper{
+  display: flex;
+}
+
+.hero-info{
+  flex-basis: 50%;
+}
+
+.hero-heading{
+  font-size: var(--fz-50);
+  color: #2D1D61;
+}
+
+.hero-text{
+  font-size: var(--fz-18);
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.hero-images{
+  flex-basis: 50%;
+
+  img{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

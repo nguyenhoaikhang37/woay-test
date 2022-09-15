@@ -1,0 +1,21 @@
+.faq{
+  margin-top: 166px;
+}
+
+.faq-heading{
+  font-weight: 700;
+  font-size: 44px;
+  color: #2D1D61;
+  text-align: center;
+}
+
+.faq-list{
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.faq-item{
+  flex-basis: 48%;
+}

@@ -1,0 +1,59 @@
+:root {
+  --c-primary: #7951F9;
+  --c-primary-light: #E6DEFF;
+  --c-primary-lighter: #F4F1FF;
+  --c-purple: #352B53;
+  --c-text: #352B53;
+  --c-white: #ffffff;
+
+  --f-primary: 'Poppins', sans-serif;
+  --fz-14: 1.4rem;
+  --fz-16: 1.6rem;
+  --fz-18: 1.8rem;
+  --fz-20: 2rem;
+  --fz-36: 3.6rem;
+  --fz-50: 5rem;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--f-primary);
+  line-height: 1.5;
+  font-size: var(--fz-14);
+  text-rendering: optimizeSpeed;
+  color: var(--c-text);
+  max-width: 1470px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}

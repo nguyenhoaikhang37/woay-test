@@ -1,0 +1,18 @@
+.card{
+  padding: 66px 30px 60px;
+  background: #FFFFFF;
+  border: 1px solid #F3F4FE;
+  box-shadow: 0px 50px 115px rgba(165, 153, 209, 0.3);
+  border-radius: 10px;
+}
+
+.card-heading{
+  padding: 50px 0 30px;
+  font-size: var(--fz-18);
+  font-weight: bold;
+  color: #352B53;
+}
+
+.card-text{
+  font-weight: 400;
+}

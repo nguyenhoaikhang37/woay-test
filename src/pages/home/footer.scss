@@ -1,0 +1,33 @@
+.footer {
+  padding: 160px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-content {
+  max-width: 223px;
+  font-weight: 400;
+  font-size: var(--fz-16);
+  color: #343448;
+  margin-top: 40px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 150px;
+
+  ul > p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #3E3E3E;
+    margin-bottom: 40px;
+  }
+
+  ul > li {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+}

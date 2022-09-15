@@ -1,0 +1,15 @@
+.card-list{
+  margin-top: 166px;
+  margin-bottom: 100px;
+}
+
+.card-list-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card-item{
+  flex-basis: 33.33333%;
+}
